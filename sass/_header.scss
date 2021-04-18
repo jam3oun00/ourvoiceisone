@@ -1,0 +1,23 @@
+// .centered-top-container.sticky,
+// .centered-top-placeholder,
+// .centered-top-placeholder.cloned,
+.footer.section .widget.Attribution .widget-content .blogger,
+.footer.section .widget.Attribution .widget-content .image-attribution {
+  @extend .hide;
+}
+.centered-top-container,.centered-top-container.sticky {
+  // position: fixed;
+  // top: 0px;
+  // left: 0px;
+  // right: 0px;
+  height: $header-height;
+  // padding: $header-padding-y 23px 0;
+  // z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.widget.Header .header-widget h1 {
+  text-transform: capitalize;
+  font-size: 35px;
+}

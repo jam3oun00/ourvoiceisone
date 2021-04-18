@@ -1,0 +1,103 @@
+.hide, .post-title-container, .footer.section .widget.Attribution .widget-content .blogger,
+.footer.section .widget.Attribution .widget-content .image-attribution {
+  display: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+*:not(i),
+body,
+html {
+  font-family: "Almarai", sans-serif !important;
+}
+
+.big-post-title .big-post-title-inner .post-header-line-1 .timestamp-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.big-post-title .big-post-title-inner .post-body.entry-content {
+  color: white;
+}
+
+.big-post-title .big-post-title-inner .post-bottom a.flat-button,
+.big-post-title .big-post-title-inner .post-bottom a.comment-link.flat-button,
+.big-post-title .big-post-title-inner .post-bottom button[aria-label="Share"] {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-image-wrapper img {
+  width: 234px;
+  -webkit-transform: translate(8px, -3px);
+          transform: translate(8px, -3px);
+}
+
+@media screen and (min-width: 960px) {
+  .header-image-wrapper img {
+    width: 400px;
+  }
+}
+
+.widget-content .social-media ul {
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 4rem 4rem 4rem;
+      grid-template-columns: 4rem 4rem 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.widget-content .social-media ul li a svg {
+  height: 27px;
+  fill: rgba(255, 255, 255, 0.95);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.widget-content .social-media ul li a svg:hover {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.centered-top-container, .centered-top-container.sticky {
+  height: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.widget.Header .header-widget h1 {
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+.footer.section {
+  margin: 0;
+  padding: 13px;
+  background-color: #8e204d;
+}
+
+.footer.section .widget.Attribution {
+  padding: 0;
+  margin: 0;
+}
+
+.footer.section .widget.Attribution .widget-content {
+  margin: 0;
+}
+
+.footer.section .widget.Attribution .widget-content .copyright {
+  margin: 0;
+  font-size: 14px;
+}
+/*# sourceMappingURL=index.css.map */
