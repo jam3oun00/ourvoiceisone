@@ -1,3 +1,7 @@
+.copyright {
+  margin-bottom: 20px !important;
+}
+
 .hide, .post-title-container, .footer.section .widget.Attribution .widget-content .blogger,
 .footer.section .widget.Attribution .widget-content .image-attribution {
   display: none !important;
